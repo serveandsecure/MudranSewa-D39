@@ -29,7 +29,7 @@ TEXT_MUTED = "#94a3b8"
 CRIMSON = "#dc2626"
 BLUE_ACCENT = "#0284c7"
 
-def draw_browser_chrome(ax, title, url="https://mudran-sewa.pages.dev"):
+def draw_browser_chrome(ax, title, url="https://mudran.sascol.com"):
     # Window chrome bar
     rect_bar = patches.Rectangle((0, 0.93), 1, 0.07, transform=ax.transAxes, facecolor="#00332c", edgecolor=None, zorder=10)
     ax.add_patch(rect_bar)
@@ -129,7 +129,7 @@ def gen_architecture():
     ax.set_ylim(0, 1)
     ax.axis("off")
 
-    draw_browser_chrome(ax, "Enterprise System Architecture: Mudran-Sewa", "https://mudran-sewa.pages.dev/architecture")
+    draw_browser_chrome(ax, "Enterprise System Architecture: Mudran-Sewa", "https://mudran.sascol.com/architecture")
 
     # Header
     ax.text(0.04, 0.88, "ENTERPRISE CLOUD-NATIVE SYSTEM ARCHITECTURE: MUDRAN-SEWA", color=TEXT_WHITE, fontsize=14, weight="heavy")
@@ -237,7 +237,7 @@ def gen_wireframe1_store():
     ax.set_ylim(0, 1)
     ax.axis("off")
 
-    draw_browser_chrome(ax, "Central Paper Store & Consumables Register", "https://mudran-sewa.pages.dev/inventory/stock-register")
+    draw_browser_chrome(ax, "Central Paper Store & Consumables Register", "https://mudran.sascol.com/inventory/stock-register")
 
     # Header Bar
     ax.text(0.04, 0.88, "Directorate of Printing & Stationery • Central Paper & Consumables Warehouse", color="#004d40", fontsize=14, weight="heavy")
@@ -309,7 +309,7 @@ def gen_wireframe2_press():
     ax.set_ylim(0, 1)
     ax.axis("off")
 
-    draw_browser_chrome(ax, "Press Production Floor & Gazette Vault", "https://mudran-sewa.pages.dev/press/job-tickets")
+    draw_browser_chrome(ax, "Press Production Floor & Gazette Vault", "https://mudran.sascol.com/press/job-tickets")
 
     ax.text(0.04, 0.88, "Press Production Floor & The Assam Gazette (Asom Rajpatra) Vault", color="#004d40", fontsize=14, weight="heavy")
     ax.text(0.04, 0.85, "Real-Time Machine Impression Runs, Trimming Wastage % Telemetry & Cryptographic Gazette Stamping", color="#64748b", fontsize=9.5)
@@ -377,7 +377,7 @@ def gen_wireframe3_transit():
     ax.set_ylim(0, 1)
     ax.axis("off")
 
-    draw_browser_chrome(ax, "Inter-District Fleet GPS Radar & Transit Tracker", "https://mudran-sewa.pages.dev/dispatch/transit-tracker")
+    draw_browser_chrome(ax, "Inter-District Fleet GPS Radar & Transit Tracker", "https://mudran.sascol.com/dispatch/transit-tracker")
 
     ax.text(0.04, 0.88, "INTER-DISTRICT FLEET GPS RADAR & TRANSIT CORRIDOR TRACKER", color=TEXT_WHITE, fontsize=14, weight="heavy")
     ax.text(0.04, 0.85, "Real-Time Consignment Movement from Bamunimaidam Central Press to 35 Assam District Treasuries", color=GOV_GOLD_SHINE, fontsize=10)
@@ -450,7 +450,7 @@ def gen_wireframe4_gatepass():
     ax.set_ylim(0, 1)
     ax.axis("off")
 
-    draw_browser_chrome(ax, "Official E-Gatepass QR Verification Pass", "https://mudran-sewa.pages.dev/dispatch/gatepass")
+    draw_browser_chrome(ax, "Official E-Gatepass QR Verification Pass", "https://mudran.sascol.com/dispatch/gatepass")
 
     ax.text(0.04, 0.88, "Official Tamper-Evident QR E-Gatepass & Handshake Verification", color="#004d40", fontsize=14, weight="heavy")
     ax.text(0.04, 0.85, "Statutory Security Gatepass for Inter-District Government Stationery Transit • Government of Assam", color="#64748b", fontsize=9.5)

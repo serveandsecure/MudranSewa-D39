@@ -7,8 +7,8 @@ Generates:
 
 Directorate of Printing & Stationery, Government of Assam (Bamunimaidam, Guwahati)
 Lead Applicant: Anindita Sonowal • Serve and Secure Private Limited
-Live Platform: https://mudran-sewa.pages.dev
-GitHub: https://github.com/RonHatibaruah/assam-gov-stationery-track
+Live Platform: https://mudran.sascol.com
+GitHub: https://github.com/serveandsecure/MudranSewa-D39
 """
 
 import os
@@ -307,7 +307,7 @@ def build_proposal_pdf():
             Paragraph("<b>Headquarters:</b> Bamunimaidam, Guwahati - 781021", styles['MetaKey'])
         ],
         [
-            Paragraph("<b>Live Platform:</b> https://mudran-sewa.pages.dev/", styles['MetaKey']),
+            Paragraph("<b>Live Platform:</b> https://mudran.sascol.com/", styles['MetaKey']),
             Paragraph("<b>Solution Innovator:</b> Serve and Secure Private Limited", styles['MetaKey'])
         ]
     ]
@@ -424,7 +424,7 @@ def build_proposal_pdf():
     story.append(Paragraph("4. <b>Receiving District Treasury Handshake Journey:</b> Upon arrival at Jorhat District Treasury, the Treasury Officer scans the tamper-evident QR code on the driver's device, verifies physical carton seals against the digital manifest, enters the delivery OTP, and signs off. Inventory is instantly deducted from Central Stores and added to Jorhat Treasury's local stock ledger.", styles['Body']))
 
     story.append(Paragraph("Working Prototype & Proof of Work Evidence", styles['SubSectionHead']))
-    story.append(Paragraph("A fully operational, high-fidelity working prototype has been engineered and verified live at <b>https://mudran-sewa.pages.dev/</b> (Interactive Tutorial & Guide: <b>https://mudran-sewa.pages.dev/#tutorial</b>; GitHub: <b>https://github.com/RonHatibaruah/assam-gov-stationery-track</b>). Complete architectural schematics, wireframes, and empirical benchmarks are documented in the accompanying 7-page Proof of Work Dossier:", styles['Body']))
+    story.append(Paragraph("A fully operational, high-fidelity working prototype has been engineered and verified live at <b>https://mudran.sascol.com/</b> (Interactive Tutorial & Guide: <b>https://mudran.sascol.com/#tutorial</b>; GitHub: <b>https://github.com/serveandsecure/MudranSewa-D39</b>). Complete architectural schematics, wireframes, and empirical benchmarks are documented in the accompanying 7-page Proof of Work Dossier:", styles['Body']))
     story.append(Paragraph("• <b>Interactive Platform Tutorial:</b> Header guide modal detailing complete stationery lifecycle from paper reel inward to district treasury delivery.", styles['Bullet']))
     story.append(Paragraph("• <b>Master Paper & Consumables Storekeeper Portal:</b> Real-time inventory tracking across Maplitho, Bond, Ledger, and Art Board paper grades with automated safety buffer alerts (<800 reams).", styles['Bullet']))
     story.append(Paragraph("• <b>Press Production Floor & Trimming Loss Telemetry:</b> Live monitoring of Harris Web Offset, Heidelberg Sheet-fed, and binding lines with real-time scrap loss calculations and >3% wastage alert triggers.", styles['Bullet']))
@@ -767,7 +767,7 @@ def build_proposal_pdf():
     story.append(Paragraph("• <b>System Latency:</b> API response time < 50ms on Cloudflare Edge; QR code scanning decode time < 200ms.", styles['Bullet']))
     story.append(Paragraph("• <b>Reconciliation Accuracy:</b> 100% mathematical reconciliation between paper reams dispatched from Guwahati and received at District Treasuries.", styles['Bullet']))
     story.append(Paragraph("• <b>Scrap Reduction Impact:</b> Press floor trimming and binding scrap loss reduced from historical >5% to <2.5%, saving over Rs. 45 Lakhs annually in paper raw material costs across state printing presses.", styles['Bullet']))
-    story.append(Paragraph("<b>Prior Proof of Work & Empirical Evidence:</b> The live platform at <code>https://mudran-sewa.pages.dev</code> incorporates realistic operational data from Assam Government Press printing lines (The Assam Gazette, Budget Estimates, Jamabandi Registers), demonstrating production readiness.", styles['Body']))
+    story.append(Paragraph("<b>Prior Proof of Work & Empirical Evidence:</b> The live platform at <code>https://mudran.sascol.com</code> incorporates realistic operational data from Assam Government Press printing lines (The Assam Gazette, Budget Estimates, Jamabandi Registers), demonstrating production readiness.", styles['Body']))
 
     story.append(PageBreak())
 
@@ -989,7 +989,7 @@ def build_pow_pdf():
             Paragraph("<b>Headquarters:</b> Bamunimaidam, Guwahati - 781021", styles['MetaKey'])
         ],
         [
-            Paragraph("<b>Live Prototype:</b> https://mudran-sewa.pages.dev/", styles['MetaKey']),
+            Paragraph("<b>Live Prototype:</b> https://mudran.sascol.com/", styles['MetaKey']),
             Paragraph("<b>Solution Innovator:</b> Serve and Secure Private Limited", styles['MetaKey'])
         ]
     ]
@@ -1042,7 +1042,7 @@ def build_pow_pdf():
     # PAGE 3: Section 3: Wireframes 2 & 3
     # =========================================================================
     story.append(Paragraph("3. Wireframes & User Interface Evidence", styles['FieldHeading']))
-    story.append(Paragraph("The following wireframe diagrams reflect the live, working user interfaces rendered by the deployed web application at https://mudran-sewa.pages.dev/ (Tutorial & Guide: https://mudran-sewa.pages.dev/#tutorial):", styles['Body']))
+    story.append(Paragraph("The following wireframe diagrams reflect the live, working user interfaces rendered by the deployed web application at https://mudran.sascol.com/ (Tutorial & Guide: https://mudran.sascol.com/#tutorial):", styles['Body']))
     story.append(Spacer(1, 2))
 
     story.append(Paragraph("<b>Wireframe 2: Press Production Floor & Trimming Scrap Loss Telemetry</b>", styles['SubSectionHead']))
@@ -1202,14 +1202,14 @@ def build_pow_pdf():
 [PASS] POST /api/indents - validates indent submission, priority tags, and quota checks (0.65ms)
 [PASS] POST /api/gatepasses - validates vehicle registration, driver phone, and QR generation (0.58ms)
 [PASS] POST /api/inventory/adjust - updates stock ledger with audit log entry (0.49ms)
-Deployment: https://mudran-sewa.pages.dev • Branch: main • Commit: production-ready"""
+Deployment: https://mudran.sascol.com • Branch: main • Commit: production-ready"""
     story.append(Paragraph(test_output.replace("\n", "<br/>").replace(" ", "&nbsp;"), styles['CodeBlock']))
     story.append(Spacer(1, 4))
 
-    dep_text = """• <b>Cloudflare Pages Production URL:</b> <code>https://mudran-sewa.pages.dev</code>
-    <br/>• <b>Interactive System Tutorial & Guide:</b> <code>https://mudran-sewa.pages.dev/#tutorial</code>
+    dep_text = """• <b>Cloudflare Pages Production URL:</b> <code>https://mudran.sascol.com</code>
+    <br/>• <b>Interactive System Tutorial & Guide:</b> <code>https://mudran.sascol.com/#tutorial</code>
     <br/>• <b>Edge Response Latency:</b> < 50ms across 300+ global points of presence | <b>API Functions:</b> <code>functions/api/[[route]].js</code>
-    <br/>• <b>GitHub Repository:</b> <code>https://github.com/RonHatibaruah/assam-gov-stationery-track</code> (Branch: <code>main</code>)
+    <br/>• <b>GitHub Repository:</b> <code>https://github.com/serveandsecure/MudranSewa-D39</code> (Branch: <code>main</code>)
     <br/>• <b>Data Integrity Checksums:</b> SHA-256 digital stamping on all statutory gazette publications and QR gatepasses"""
     story.append(Paragraph(dep_text, styles['BodySmall']))
 
@@ -1256,7 +1256,7 @@ Deployment: https://mudran-sewa.pages.dev • Branch: main • Commit: productio
     • <b>Initiative:</b> North East Seva First Innovation Challenge (NESFIC 2026)<br/>
     • <b>Problem Statement ID:</b> NESFIC-D-39 (Digital Inventory & Movement Tracking for Government Press and Stationery)<br/>
     • <b>Department:</b> Directorate of Printing & Stationery, Government of Assam (Bamunimaidam, Guwahati - 781021)<br/>
-    • <b>Live Working Prototype:</b> <code>https://mudran-sewa.pages.dev</code> | <b>Tutorial & Guide:</b> <code>https://mudran-sewa.pages.dev/#tutorial</code><br/>
+    • <b>Live Working Prototype:</b> <code>https://mudran.sascol.com</code> | <b>Tutorial & Guide:</b> <code>https://mudran.sascol.com/#tutorial</code><br/>
     • <b>Disclaimer:</b> Solution prototype demonstration for NESFIC 2026 evaluation.<br/>
     • <b>Copyright:</b> © 2026 Serve and Secure Private Limited. All rights reserved."""
     so_table = Table([[Paragraph(signoff_text, styles['BodySmall'])]], colWidths=[487])

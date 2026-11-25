@@ -66,7 +66,7 @@ def draw_header(ax, title, subtitle, badge_text=None, badge_color=C_PILLAR_EMERA
         ax.add_patch(badge)
         ax.text(0.900, 0.937, badge_text, fontsize=8.5, weight="bold", color=badge_color, ha="center", va="center", zorder=11)
 
-def draw_browser_chrome(ax, title, url="https://mudran-sewa.pages.dev"):
+def draw_browser_chrome(ax, title, url="https://mudran.sascol.com"):
     """Draws clean browser window bar for wireframes."""
     bar = Rectangle((0.02, 0.93), 0.96, 0.055, transform=ax.transAxes, facecolor="#0f172a", edgecolor=None, zorder=10)
     ax.add_patch(bar)
@@ -434,7 +434,7 @@ def gen_wireframe_store():
     ax.set_ylim(0, 1)
     ax.axis("off")
 
-    draw_browser_chrome(ax, "Mudran-Sewa | Storekeeper Portal", "https://mudran-sewa.pages.dev/storekeeper")
+    draw_browser_chrome(ax, "Mudran-Sewa | Storekeeper Portal", "https://mudran.sascol.com/storekeeper")
 
     # Left Sidebar
     sb = FancyBboxPatch((0.02, 0.04), 0.18, 0.87, transform=ax.transAxes,
@@ -575,7 +575,7 @@ def gen_wireframe_press():
     ax.set_ylim(0, 1)
     ax.axis("off")
 
-    draw_browser_chrome(ax, "Mudran-Sewa | Press Floor Telemetry", "https://mudran-sewa.pages.dev/press-floor")
+    draw_browser_chrome(ax, "Mudran-Sewa | Press Floor Telemetry", "https://mudran.sascol.com/press-floor")
 
     # Top KPI Row
     kpis = [
@@ -706,7 +706,7 @@ def gen_wireframe_transit():
     ax.set_ylim(0, 1)
     ax.axis("off")
 
-    draw_browser_chrome(ax, "Mudran-Sewa | Inter-District Transit Radar", "https://mudran-sewa.pages.dev/transit-radar")
+    draw_browser_chrome(ax, "Mudran-Sewa | Inter-District Transit Radar", "https://mudran.sascol.com/transit-radar")
 
     # Center/Right: Highway Corridor Radar Map Box
     map_w = 0.58
@@ -819,7 +819,7 @@ def gen_wireframe_gatepass():
     ax.set_ylim(0, 1)
     ax.axis("off")
 
-    draw_browser_chrome(ax, "Mudran-Sewa | Gatepass & Gazette Vault", "https://mudran-sewa.pages.dev/gatepass")
+    draw_browser_chrome(ax, "Mudran-Sewa | Gatepass & Gazette Vault", "https://mudran.sascol.com/gatepass")
 
     half_w = 0.46
     lp = FancyBboxPatch((0.035, 0.04), half_w, 0.87, transform=ax.transAxes,

@@ -15,7 +15,7 @@ The application is completely configured and optimized for zero-cost, high-speed
    ```
 2. Follow the terminal prompt to log into your Cloudflare account (if not already authenticated).
 3. Cloudflare will publish the site and provide a permanent global live URL:
-   `https://mudran-sewa.pages.dev`
+   `https://mudran.sascol.com`
 
 ---
 
@@ -23,7 +23,7 @@ The application is completely configured and optimized for zero-cost, high-speed
 
 1. Push this repository to GitHub under `assam-gov-stationery-track` (or your chosen repository name).
 2. Log into the [Cloudflare Dashboard](https://dash.cloudflare.com/) and go to **Workers & Pages** $\rightarrow$ **Create Application** $\rightarrow$ **Pages** $\rightarrow$ **Connect to Git**.
-3. Select your repository `RonHatibaruah/assam-gov-stationery-track` and configure the build settings:
+3. Select your repository `serveandsecure/MudranSewa-D39` and configure the build settings:
    - **Project Name:** `mudran-sewa` (or `assam-gov-stationery-track`)
    - **Production Branch:** `main` (or `master`)
    - **Framework Preset:** `None`

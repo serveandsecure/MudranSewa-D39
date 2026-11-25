@@ -4,9 +4,9 @@ Problem Statement: NESFIC-D-39 (Digital Inventory & Movement Tracking for Govern
 Department: Directorate of Printing & Stationery, Information, Public Relations, Printing & Stationery Department, Government of Assam (Bamunimaidam, Guwahati - 781021)
 Challenge Track: Government Track / Dashboards & Digital Platforms (Governance & Administration)
 Lead Applicant: Anindita Sonowal • Serve and Secure Private Limited (anindita.sonowal@serveandsecure.in)
-Live Platform URL: https://mudran-sewa.pages.dev
-Interactive System Guide & Tutorial: https://mudran-sewa.pages.dev/#tutorial
-GitHub Repository: https://github.com/RonHatibaruah/assam-gov-stationery-track
+Live Platform URL: https://mudran.sascol.com
+Interactive System Guide & Tutorial: https://mudran.sascol.com/#tutorial
+GitHub Repository: https://github.com/serveandsecure/MudranSewa-D39
 ================================================================================
 
 --------------------------------------------------------------------------------
@@ -85,14 +85,14 @@ Proposed User Journeys:
 
 Wireframes, Prototype Architecture & Live Deployment Evidence:
 The complete, fully functional platform has been engineered, containerized, and deployed to live production on Cloudflare Pages and Workers:
-1. Live Production URL: https://mudran-sewa.pages.dev
-   - Stock Register: https://mudran-sewa.pages.dev/inventory/stock-register
-   - e-Indent Portal: https://mudran-sewa.pages.dev/requisition/e-indent
-   - Press Floor & Gazette Vault: https://mudran-sewa.pages.dev/press/job-tickets
-   - GPS Transit & QR Gatepass Inspector: https://mudran-sewa.pages.dev/dispatch/transit-tracker
-   - Admin Command & Audit Trail: https://mudran-sewa.pages.dev/admin/command-center
-2. Interactive In-App Tutorial & Visual Walkthrough: https://mudran-sewa.pages.dev/#tutorial
-3. Open-Source Public GitHub Repository: https://github.com/RonHatibaruah/assam-gov-stationery-track
+1. Live Production URL: https://mudran.sascol.com
+   - Stock Register: https://mudran.sascol.com/inventory/stock-register
+   - e-Indent Portal: https://mudran.sascol.com/requisition/e-indent
+   - Press Floor & Gazette Vault: https://mudran.sascol.com/press/job-tickets
+   - GPS Transit & QR Gatepass Inspector: https://mudran.sascol.com/dispatch/transit-tracker
+   - Admin Command & Audit Trail: https://mudran.sascol.com/admin/command-center
+2. Interactive In-App Tutorial & Visual Walkthrough: https://mudran.sascol.com/#tutorial
+3. Open-Source Public GitHub Repository: https://github.com/serveandsecure/MudranSewa-D39
 4. Automated Test Evidence: 10 automated unit and integration tests passing with 0 failures (`npm test` in 43ms).
 5. Comprehensive Proof of Work Document: A detailed Proof of Work document including wireframe mock-ups, architecture diagrams, API request/response logs, and test execution reports is prepared and attached in PDF format.
 
@@ -154,7 +154,7 @@ Phase 3: Interactive Prototype & Core Module Construction (Weeks 9–14) [COMPLE
 - Implementation of the 6 core functional modules: Paper Store, e-Indents, Press Production Floor, The Assam Gazette Vault, E-Gatepass Fleet Transit, and Admin Audit Console.
 - Integration of bilingual Assamese/English terminology (e.g., অসম ৰাজপত্ৰ, মুদ্ৰণ সেৱা) and accessible responsive UI.
 - Comprehensive automated test suite development covering 10 integration scenarios.
-- Key Output: Production-ready MVP deployed live on Cloudflare Pages (`https://mudran-sewa.pages.dev`).
+- Key Output: Production-ready MVP deployed live on Cloudflare Pages (`https://mudran.sascol.com`).
 
 Phase 4: District Pilot, Fleet Telemetry & User Training (Weeks 15–20)
 - Sandbox pilot deployment linking Bamunimaidam Central Press with Kamrup Metropolitan and Jorhat DC Stationery Stores.
@@ -210,7 +210,7 @@ Month 6 (Milestone 6: Security Audit, State Commissioning & Handover)
 - Dependency: Final Directorate acceptance sign-off.
 
 Validation Readiness:
-The foundational prototype is ALREADY FUNCTIONAL AND DEPLOYED at https://mudran-sewa.pages.dev. The solution will be ready for live pilot validation with real government paper lots within 90 days of project sanction.
+The foundational prototype is ALREADY FUNCTIONAL AND DEPLOYED at https://mudran.sascol.com. The solution will be ready for live pilot validation with real government paper lots within 90 days of project sanction.
 
 --------------------------------------------------------------------------------
 --- FIELD 7: Data & information requirements
@@ -301,11 +301,11 @@ Our application incorporates an automated, multi-tiered testing suite executed v
 
 3. Live Empirical Evidence & Working Prototype:
 Unlike purely conceptual proposals, "Mudran-Sewa" is fully implemented, verified, and accessible live:
-- Live Cloudflare Production Portal: https://mudran-sewa.pages.dev
-- Edge API Health Endpoint: https://mudran-sewa.pages.dev/api/health (Returns HTTP 200 OK)
-- Live Analytics Endpoint: https://mudran-sewa.pages.dev/api/analytics (Returns live valley-wide paper stock and job counts)
-- Public Open-Source Repository: https://github.com/RonHatibaruah/assam-gov-stationery-track
-- Interactive In-App Tutorial: https://mudran-sewa.pages.dev/#tutorial
+- Live Cloudflare Production Portal: https://mudran.sascol.com
+- Edge API Health Endpoint: https://mudran.sascol.com/api/health (Returns HTTP 200 OK)
+- Live Analytics Endpoint: https://mudran.sascol.com/api/analytics (Returns live valley-wide paper stock and job counts)
+- Public Open-Source Repository: https://github.com/serveandsecure/MudranSewa-D39
+- Interactive In-App Tutorial: https://mudran.sascol.com/#tutorial
 
 --------------------------------------------------------------------------------
 --- FIELD 10: Security, privacy, safety & compliance
@@ -377,7 +377,7 @@ Resources, Risk Mitigation & Pilot Validation Strategy:
 
 2. Key Risks & Comprehensive Mitigations:
 • Risk 1: Resistance to Digital Adoption by Press Floor Staff & Storekeepers.
-  - Mitigation: The user interface is engineered with extreme simplicity: high-contrast buttons, single-click stage transitions, bilingual Assamese/English labels, and comprehensive guided video tutorials accessible directly within the application (`https://mudran-sewa.pages.dev/#tutorial`).
+  - Mitigation: The user interface is engineered with extreme simplicity: high-contrast buttons, single-click stage transitions, bilingual Assamese/English labels, and comprehensive guided video tutorials accessible directly within the application (`https://mudran.sascol.com/#tutorial`).
 • Risk 2: Intermittent Internet Connectivity in Remote Districts.
   - Mitigation: Built as an Offline-First Progressive Web App (PWA) with client-side caching (`site.webmanifest`, service workers, local storage). Verification tokens on QR Gatepasses can be validated offline by comparing cryptographic hashes.
 • Risk 3: Transport Carrier Delays or Route Deviations.
@@ -398,9 +398,9 @@ Pilot Success Criteria:
 ================================================================================
 SUPPORTING MATERIAL METADATA & LINKS
 ================================================================================
-• Product / Website URL: https://mudran-sewa.pages.dev
-• Demo / Interactive Tutorial URL: https://mudran-sewa.pages.dev/#tutorial
-• GitHub Repository URL: https://github.com/RonHatibaruah/assam-gov-stationery-track
+• Product / Website URL: https://mudran.sascol.com
+• Demo / Interactive Tutorial URL: https://mudran.sascol.com/#tutorial
+• GitHub Repository URL: https://github.com/serveandsecure/MudranSewa-D39
 • Lead Applicant: Anindita Sonowal • Serve and Secure Private Limited (anindita.sonowal@serveandsecure.in)
 • Challenge Code: NESFIC-D-39 (NESFIC 2026)
 ================================================================================

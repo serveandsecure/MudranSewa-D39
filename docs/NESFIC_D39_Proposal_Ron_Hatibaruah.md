@@ -5,9 +5,9 @@
 **Organized by:** Department of Innovation, Incubation and Startups (DIIS) & Assam Innovation & Startup Foundation (AISF), Government of Assam  
 **Problem Owner:** Directorate of Printing & Stationery, Information, Public Relations, Printing & Stationery Department, Government of Assam (Bamunimaidam, Guwahati - 781021)  
 **Lead Applicant:** Anindita Sonowal (`anindita.sonowal@serveandsecure.in`)  
-**Live Platform:** [https://mudran-sewa.pages.dev](https://mudran-sewa.pages.dev)  
-**Interactive System Guide:** [https://mudran-sewa.pages.dev/#tutorial](https://mudran-sewa.pages.dev/#tutorial)  
-**GitHub Repository:** [https://github.com/RonHatibaruah/assam-gov-stationery-track](https://github.com/RonHatibaruah/assam-gov-stationery-track)  
+**Live Platform:** [https://mudran.sascol.com](https://mudran.sascol.com)  
+**Interactive System Guide:** [https://mudran.sascol.com/#tutorial](https://mudran.sascol.com/#tutorial)  
+**GitHub Repository:** [https://github.com/serveandsecure/MudranSewa-D39](https://github.com/serveandsecure/MudranSewa-D39)  
 
 ---
 
@@ -97,14 +97,14 @@ Manual logbooks and loose delivery challans are replaced with synchronized, real
 
 ### Wireframes, Prototype Architecture & Live Deployment Evidence
 The complete, fully functional platform has been engineered, containerized, and deployed to live production on Cloudflare Pages and Workers:
-1. **Live Production URL**: [https://mudran-sewa.pages.dev](https://mudran-sewa.pages.dev)
+1. **Live Production URL**: [https://mudran.sascol.com](https://mudran.sascol.com)
    - Stock Register: `/inventory/stock-register`
    - e-Indent Portal: `/requisition/e-indent`
    - Press Floor & Gazette Vault: `/press/job-tickets`
    - GPS Transit & QR Gatepass Inspector: `/dispatch/transit-tracker`
    - Admin Command & Audit Trail: `/admin/command-center`
-2. **Interactive In-App Tutorial & Visual Walkthrough**: [https://mudran-sewa.pages.dev/#tutorial](https://mudran-sewa.pages.dev/#tutorial)
-3. **Open-Source Public GitHub Repository**: [https://github.com/RonHatibaruah/assam-gov-stationery-track](https://github.com/RonHatibaruah/assam-gov-stationery-track)
+2. **Interactive In-App Tutorial & Visual Walkthrough**: [https://mudran.sascol.com/#tutorial](https://mudran.sascol.com/#tutorial)
+3. **Open-Source Public GitHub Repository**: [https://github.com/serveandsecure/MudranSewa-D39](https://github.com/serveandsecure/MudranSewa-D39)
 4. **Automated Test Evidence**: 10 automated unit and integration tests passing with 0 failures (`npm test` in 43ms).
 5. **Proof of Work Document**: Attached in PDF format.
 
@@ -168,7 +168,7 @@ We adopt an Agile Public-Sector Scrum framework combining rapid iterative sprint
   - Implementation of the 6 core functional modules: Paper Store, e-Indents, Press Production Floor, The Assam Gazette Vault, E-Gatepass Fleet Transit, and Admin Audit Console.
   - Integration of bilingual Assamese/English terminology (e.g., অসম ৰাজপত্ৰ, মুদ্ৰণ সেৱা) and accessible responsive UI.
   - Comprehensive automated test suite development covering 10 integration scenarios.
-  - *Key Output*: Production-ready MVP deployed live on Cloudflare Pages (`https://mudran-sewa.pages.dev`).
+  - *Key Output*: Production-ready MVP deployed live on Cloudflare Pages (`https://mudran.sascol.com`).
 
 - **Phase 4: District Pilot, Fleet Telemetry & User Training (Weeks 15–20)**
   - Sandbox pilot deployment linking Bamunimaidam Central Press with Kamrup Metropolitan and Jorhat DC Stationery Stores.
@@ -225,7 +225,7 @@ We adopt an Agile Public-Sector Scrum framework combining rapid iterative sprint
   - *Dependency*: Final Directorate acceptance sign-off.
 
 ### Validation Readiness
-The foundational prototype is ALREADY FUNCTIONAL AND DEPLOYED at `https://mudran-sewa.pages.dev`. The solution will be ready for live pilot validation with real government paper lots within 90 days of project sanction.
+The foundational prototype is ALREADY FUNCTIONAL AND DEPLOYED at `https://mudran.sascol.com`. The solution will be ready for live pilot validation with real government paper lots within 90 days of project sanction.
 
 ---
 
@@ -308,10 +308,10 @@ Our application incorporates an automated, multi-tiered testing suite executed v
 - Lightweight Footprint: Core frontend bundle is under 150 KB with zero external runtime dependencies.
 
 ### Live Empirical Evidence & Working Prototype
-- **Live Production URL**: [https://mudran-sewa.pages.dev](https://mudran-sewa.pages.dev)
-- **Edge API Health**: [https://mudran-sewa.pages.dev/api/health](https://mudran-sewa.pages.dev/api/health)
-- **Edge Analytics**: [https://mudran-sewa.pages.dev/api/analytics](https://mudran-sewa.pages.dev/api/analytics)
-- **Public GitHub Repository**: [https://github.com/RonHatibaruah/assam-gov-stationery-track](https://github.com/RonHatibaruah/assam-gov-stationery-track)
+- **Live Production URL**: [https://mudran.sascol.com](https://mudran.sascol.com)
+- **Edge API Health**: [https://mudran.sascol.com/api/health](https://mudran.sascol.com/api/health)
+- **Edge Analytics**: [https://mudran.sascol.com/api/analytics](https://mudran.sascol.com/api/analytics)
+- **Public GitHub Repository**: [https://github.com/serveandsecure/MudranSewa-D39](https://github.com/serveandsecure/MudranSewa-D39)
 
 ---
 
@@ -377,7 +377,7 @@ Statutory and confidential printing runs (e.g., State Assembly Budget Memoranda,
 
 2. **Key Risks & Comprehensive Mitigations**:
    - **Risk 1: Resistance to Digital Adoption by Press Floor Staff & Storekeepers**:  
-     *Mitigation*: The user interface is engineered with extreme simplicity: high-contrast buttons, single-click stage transitions, bilingual Assamese/English labels, and comprehensive guided video tutorials accessible directly within the application (`https://mudran-sewa.pages.dev/#tutorial`).
+     *Mitigation*: The user interface is engineered with extreme simplicity: high-contrast buttons, single-click stage transitions, bilingual Assamese/English labels, and comprehensive guided video tutorials accessible directly within the application (`https://mudran.sascol.com/#tutorial`).
    - **Risk 2: Intermittent Internet Connectivity in Remote Districts**:  
      *Mitigation*: Built as an Offline-First Progressive Web App (PWA) with client-side caching (`site.webmanifest`, service workers, local storage). Verification tokens on QR Gatepasses can be validated offline by comparing cryptographic hashes.
    - **Risk 3: Transport Carrier Delays or Route Deviations**:  

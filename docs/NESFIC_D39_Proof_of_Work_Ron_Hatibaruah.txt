@@ -3,8 +3,8 @@ NESFIC 2026 PROOF OF WORK & TECHNICAL SOLUTION EVIDENCE
 Problem Statement: NESFIC-D-39 (Digital Inventory & Movement Tracking for Government Press and Stationery)
 Directorate: Directorate of Printing & Stationery, Information, Public Relations, Printing & Stationery Department, Government of Assam (Bamunimaidam, Guwahati - 781021)
 Lead Applicant: Anindita Sonowal • Serve and Secure Private Limited (anindita.sonowal@serveandsecure.in)
-Live Production URL: https://mudran-sewa.pages.dev
-Public GitHub Repository: https://github.com/RonHatibaruah/assam-gov-stationery-track
+Live Production URL: https://mudran.sascol.com
+Public GitHub Repository: https://github.com/serveandsecure/MudranSewa-D39
 ================================================================================
 
 1. EXECUTIVE SUMMARY & PROOF OF FUNCTIONAL MVP
@@ -15,11 +15,11 @@ The platform provides end-to-end digital provenance, raw paper reel and ream inv
 
 2. VERIFIED EVIDENCE & LIVE URLS
 --------------------------------------------------------------------------------
-• Live Web Portal (Production): https://mudran-sewa.pages.dev
-• Interactive In-App Tutorial: https://mudran-sewa.pages.dev/#tutorial
-• Serverless Edge Health API: https://mudran-sewa.pages.dev/api/health
-• Edge Analytics API: https://mudran-sewa.pages.dev/api/analytics
-• Open-Source Codebase: https://github.com/RonHatibaruah/assam-gov-stationery-track
+• Live Web Portal (Production): https://mudran.sascol.com
+• Interactive In-App Tutorial: https://mudran.sascol.com/#tutorial
+• Serverless Edge Health API: https://mudran.sascol.com/api/health
+• Edge Analytics API: https://mudran.sascol.com/api/analytics
+• Open-Source Codebase: https://github.com/serveandsecure/MudranSewa-D39
 • Automated Test Suite: 10/10 Tests Passing in 43ms (Node.js test runner)
 
 3. SYSTEM ARCHITECTURE & DATA FLOW
@@ -134,7 +134,7 @@ Response:
 6. VERIFICATION INSTRUCTIONS FOR EVALUATION COMMITTEE
 --------------------------------------------------------------------------------
 The evaluation committee can independently verify the working prototype immediately:
-1. Open https://mudran-sewa.pages.dev in any modern web browser or mobile phone.
+1. Open https://mudran.sascol.com in any modern web browser or mobile phone.
 2. Click on "Tutorial & Guide" in the top header to view the end-to-end operational walkthrough.
 3. In the "Paper & Consumables Store" tab, click "Record Inward Delivery (GRN)" to log a new paper lot.
 4. In the "e-Indents & Sanctions" tab, click "New e-Indent" to simulate a DC office requisition, and then click "Approve & Sanction" to verify the automated sanction order workflow.
