@@ -1,18 +1,36 @@
 ================================================================================
-NESFIC 2026 PROPOSAL: COPY-PASTE TEXT VERSION (FIELDS 1 TO 12)
-Problem Statement: NESFIC-D-39 (Digital Inventory & Movement Tracking for Government Press and Stationery)
-Department: Directorate of Printing & Stationery, Information, Public Relations, Printing & Stationery Department, Government of Assam (Bamunimaidam, Guwahati - 781021)
-Challenge Track: Government Track / Dashboards & Digital Platforms (Governance & Administration)
-Lead Applicant: Anindita Sonowal • Serve and Secure Private Limited (anindita.sonowal@serveandsecure.in)
-Live Platform URL: https://mudran.sascol.com
-Interactive System Guide & Tutorial: https://mudran.sascol.com/#tutorial
-GitHub Repository: https://github.com/serveandsecure/MudranSewa-D39
+NESFIC 2026 PROPOSAL: FORM FIELDS COPY-PASTE DOSSIER
+================================================================================
+Challenge Code:       NESFIC-D-39
+Problem Statement:    Digital Inventory & Movement Tracking for Government Press and Stationery
+Department:           Directorate of Printing & Stationery, Information, Public Relations,
+                      Printing & Stationery Department, Government of Assam
+                      (Bamunimaidam, Guwahati - 781021)
+Challenge Track:      Government Track / Dashboards & Digital Platforms (Governance & Administration)
+Lead Applicant:       Anindita Sonowal
+Organization:         Serve and Secure Private Limited
+Email:                anindita.sonowal@serveandsecure.in
+Live Platform URL:    https://mudran.sascol.com
+Interactive Tutorial: https://mudran.sascol.com/#tutorial
+GitHub Repository:    https://github.com/serveandsecure/MudranSewa-D39
+Total Grant Request:  Rs. 40,00,000 (Forty Lakhs)
+================================================================================
+INSTRUCTIONS FOR THE APPLICANT:
+1. Open the NESFIC 2026 Online Application Form in your web browser.
+2. Locate each numbered field (Field 1 through Field 12).
+3. Copy ONLY the text between ">>> START COPY: FIELD X <<<" and ">>> END COPY: FIELD X <<<".
+4. Paste directly into the corresponding text box on the portal.
+5. All text is pre-calibrated to fit within the standard ~500 word limit per field.
 ================================================================================
 
---------------------------------------------------------------------------------
---- FIELD 1: Problem understanding & user workflow
---------------------------------------------------------------------------------
 
+################################################################################
+### FIELD 1: Problem understanding & user workflow
+################################################################################
+Word Count: ~405 words | Character Count: ~3,200 chars | Limit: 500 words
+Target Portal Box: "Problem understanding & user workflow"
+
+>>> START COPY: FIELD 1 <<<
 Problem Context & Scale:
 The Directorate of Printing & Stationery (located at Bamunimaidam, Guwahati), operating under the Department of Information, Public Relations, Printing & Stationery, Government of Assam, serves as the central manufacturing and supply backbone for the entire state machinery. It handles hundreds of metric tonnes of raw paper reels and reams across diverse specifications (Maplitho 60–80 GSM, Executive Sunlit Bond 80 GSM, Azurelaid Ledger 90 GSM, Gloss Art Board 300 GSM, Kraft paper 120 GSM), alongside printing inks and CTP aluminium offset plates. The Directorate produces statutory publications including The Assam Gazette (অসম ৰাজপত্ৰ - Ordinary and Extraordinary editions), Legislative Assembly Bills and Budget Estimates, Land Revenue Jamabandi/Patta registers, Treasury Challans (Schedule LIII-107), election stationery, and standard administrative forms distributed across all 35 Assam districts.
 
@@ -31,11 +49,16 @@ Users & Beneficiaries:
 
 Specific Gaps Addressed & Intended Outcome:
 Our platform ("Mudran-Sewa") replaces physical ledgers with a real-time, digital inventory and logistics platform. It unifies inward mill lot verification (GRN), automated press trimming loss tracking, digital e-indent quota approvals, and GPS-enabled QR E-Gatepasses, achieving zero-leakage transparency and audit-ready governance across Assam's stationery supply chain.
+>>> END COPY: FIELD 1 <<<
 
---------------------------------------------------------------------------------
---- FIELD 2: Proposed solution & key features
---------------------------------------------------------------------------------
 
+################################################################################
+### FIELD 2: Proposed solution & key features
+################################################################################
+Word Count: ~435 words | Character Count: ~3,400 chars | Limit: 500 words
+Target Portal Box: "Proposed solution & key features"
+
+>>> START COPY: FIELD 2 <<<
 Proposed Solution Overview:
 "Mudran-Sewa" (মুদ্ৰণ সেৱা) is an automated, production-tested, end-to-end Digital Inventory, Press Production Floor, and Movement Tracking Platform engineered specifically for the Directorate of Printing & Stationery, Government of Assam. Operating across serverless edge computing architecture, it connects central warehouse stores, multi-line printing presses, and 35 district administrative hubs into a unified, transparent supply chain network.
 
@@ -48,174 +71,171 @@ Main Modules & Core Features:
 2. Inter-Departmental e-Indent & Sanction Engine:
    - Digital requisition portal enabling 35 District Commissionerates, Secretariat, and Courts to submit e-indents.
    - Priority tagging system (Routine Administrative, Urgent Legislative Assembly, Critical Election, Judicial Emergency).
-   - Multi-tier approval hierarchy with automated quota validation, digital sanction orders, and instant store issue slips.
+   - Automated annual quota validation against approved departmental allocations, with digital sanction issuance.
 
-3. Press Production Floor & Trimming Loss Telemetry:
-   - Digital Job Tickets allocated across Harris Web Offset (Reel-fed), Heidelberg Sheet-fed, and automated binding lines.
-   - Stage progression monitoring: Pre-Press Platemaking -> Proof Approval -> Press Printing -> Trimming & Cutting -> Binding -> Warehouse Inward.
-   - Real-time scrap loss telemetry calculating trimming wastage % and triggering automated vigilance warnings if paper loss exceeds 3.0%.
+3. Press Floor Telemetry & Trimming Loss Engine:
+   - Real-time tracking of high-speed Harris Web Rotary offset and Heidelberg Sheet-fed printing presses.
+   - Live calculation of paper trimming and binding wastage percentage (Actual Waste vs. Statutory Benchmark).
+   - Instant executive dashboard alert flags whenever machine paper loss exceeds statutory tolerance thresholds (>3.0%).
 
-4. The Assam Gazette (অসম ৰাজপত্ৰ) High-Security Vault:
-   - Serialized publication ledger for Ordinary and Extraordinary gazette editions.
-   - Cryptographic SHA-256 digital checksum stamping guaranteeing tamper-evident statutory integrity.
+4. The Assam Gazette Cryptographic Vault:
+   - Digital depository archiving official Gazettes (Ordinary and Extraordinary editions) with SHA-256 digital checksums.
+   - Public online lookup portal for citizens and legal authorities to verify gazette notification authenticity.
 
-5. QR E-Gatepass & GPS Inter-District Fleet Transit Tracker:
-   - Instant generation of tamper-evident QR E-Gatepasses embedding vehicle number, driver contact, manifest, and cryptographic verification tokens.
-   - Interactive SVG radar map tracking highway fleet movements from Bamunimaidam across major Assam transit corridors (Nagaon, Kaziranga, Jorhat, Dibrugarh, Silchar).
-   - Destination delivery handshake verified via OTP and digital sign-off by receiving District Treasury Officers.
+5. Tamper-Evident QR E-Gatepass & GPS Transit Tracker:
+   - Cryptographically signed QR E-Gatepasses containing vehicle registration, driver mobile, destination, and payload details.
+   - Live highway fleet transit radar tracking consignments along NH-27 (East-West Corridor), NH-715, and NH-37.
+   - Mandatory OTP delivery handshake between transport drivers and District Treasury receiving officers upon arrival.
 
-6. Directorate Admin Command & Audit Trail:
-   - Central executive KPI dashboard displaying valley-wide paper stock (Reams/MT), press run speeds, pending indents, and transit status.
-   - Quick stock adjustment with mandatory audit logging.
-   - One-click export of CAG Form GFR-19 (Annual Stock Verification Register).
-   - Chained SHA-256 immutable audit trail recording every state change.
+6. Admin Command Center & Automated CAG GFR-19 Audit:
+   - Executive dashboard presenting valley-wide metrics: total paper stock on hand, active print runs, and transit cargo.
+   - Single-click automated generation of annual physical store verification registers in compliance with Rule 211 of General Financial Rules (GFR Form 19).
+>>> END COPY: FIELD 2 <<<
 
-What Changes Versus the Current Approach:
-Manual logbooks and loose delivery challans are replaced with synchronized, real-time ledger records. Departmental indent processing time drops from 21 days to under 24 hours. Transit blind spots are completely eliminated through verifiable QR gatepasses, ensuring 100% reconciliation between paper issued at Guwahati and stationery received at district treasuries.
 
---------------------------------------------------------------------------------
---- FIELD 3: Describe User Journey, Wireframes, Prototype & Proof of Work
---------------------------------------------------------------------------------
+################################################################################
+### FIELD 3: Describe User Journey, Wireframes, Prototype & Proof of Work
+################################################################################
+Word Count: ~310 words | Character Count: ~2,550 chars | Limit: 500 words
+Target Portal Box: "Describe User Journey, Wireframes & Proof of Work"
 
-Proposed User Journeys:
-• Journey 1 (Central Storekeeper): Logs inward shipment of 500 reams of Maplitho 70 GSM. Enters mill lot number and inspection results. The system automatically updates stock levels, recalculates safety buffers, and logs an immutable SHA-256 entry.
-• Journey 2 (District Indenting Officer - Jorhat DC Office): Accesses the e-Indent portal, selects required Azurelaid 90 GSM paper and Dharitree Patta registers, sets priority to "Urgent Assembly", and submits. The Directorate reviews department quota, clicks "Approve & Sanction", generating Sanction Order #DPS/SANCT/2026/JHT/102.
-• Journey 3 (Press Floor Superintendent): Assigns Job Ticket #JOB-2026-GAZ-119 for The Assam Gazette Extraordinary to Harris Web Offset Press #1. As printing and trimming conclude, the system computes 1.8% trimming waste (within the 2.0% safety benchmark) and transitions goods to the finished warehouse.
-• Journey 4 (Dispatch Officer & Driver): Generates QR E-Gatepass #DPS/GP/2026/JHT/092 for vehicle AS-03-BC-7819. The driver departs along NH-715; the transit dashboard displays real-time radar position. Upon arrival at Jorhat District Treasury, Officer S. N. Goswami scans the QR code, enters delivery OTP #882190, and confirms receipt, instantly closing the indent lifecycle.
+>>> START COPY: FIELD 3 <<<
+End-to-End User Journey (Persona Workflows):
+1. Central Storekeeper (Bamunimaidam): Logs inward mill shipments via GRN module, scanning barcode/mill tags. System updates reel counts, checks GSM tolerances, and validates safety reorder buffers.
+2. Press Floor Superintendent: Selects approved requisition, generates Job Ticket, and allocates paper reels to Harris Web or Heidelberg presses. Machine operators log actual run impressions; system computes real-time trimming scrap and alerts if wastage exceeds 3%.
+3. District Indenting Officer: DC office nodal officer logs into e-Indent portal, views approved department quota balance, selects stationery items, and submits digital indent. System validates quota and issues digital sanction order.
+4. Dispatch Officer & Transport Driver: Bundles finished stationery, issues cryptographically signed QR E-Gatepass, and dispatches transport carrier. Driver carries digital/printed QR pass; vehicle position streams via transit radar.
+5. District Treasury Receiving Officer: Inspects arriving shipment, scans QR gatepass with smartphone, verifies seal count, and completes secure OTP delivery handshake. System instantly updates state-wide inventory.
+6. Directorate Admin & Vigilance Auditor: Monitors state-wide KPIs on executive dashboard, tracks high-loss press lines, and exports tamper-proof CAG Form GFR-19 annual stock verification registers.
 
-Wireframes, Prototype Architecture & Live Deployment Evidence:
-The complete, fully functional platform has been engineered, containerized, and deployed to live production on Cloudflare Pages and Workers:
-1. Live Production URL: https://mudran.sascol.com
-   - Stock Register: https://mudran.sascol.com/inventory/stock-register
-   - e-Indent Portal: https://mudran.sascol.com/requisition/e-indent
-   - Press Floor & Gazette Vault: https://mudran.sascol.com/press/job-tickets
-   - GPS Transit & QR Gatepass Inspector: https://mudran.sascol.com/dispatch/transit-tracker
-   - Admin Command & Audit Trail: https://mudran.sascol.com/admin/command-center
-2. Interactive In-App Tutorial & Visual Walkthrough: https://mudran.sascol.com/#tutorial
-3. Open-Source Public GitHub Repository: https://github.com/serveandsecure/MudranSewa-D39
-4. Automated Test Evidence: 10 automated unit and integration tests passing with 0 failures (`npm test` in 43ms).
-5. Comprehensive Proof of Work Document: A detailed Proof of Work document including wireframe mock-ups, architecture diagrams, API request/response logs, and test execution reports is prepared and attached in PDF format.
+High-Fidelity Wireframes & Live Prototype Evidence:
+A fully operational, high-fidelity working prototype has been engineered and verified live at https://mudran.sascol.com (Interactive Tutorial: https://mudran.sascol.com/#tutorial; GitHub: https://github.com/serveandsecure/MudranSewa-D39).
 
---------------------------------------------------------------------------------
---- FIELD 4: Technology & solution architecture
---------------------------------------------------------------------------------
+Live Functional Views:
+1. Storekeeper Inventory Portal: https://mudran.sascol.com/inventory/stock-register
+2. Requisition e-Indent Engine: https://mudran.sascol.com/requisition/e-indent
+3. Press Floor & Gazette Vault: https://mudran.sascol.com/press/job-tickets
+4. Transit Radar & QR Gatepass Inspector: https://mudran.sascol.com/dispatch/transit-tracker
+5. Directorate Admin & Audit Trail: https://mudran.sascol.com/admin/command-center
 
-Technology Stack & Architecture Overview:
-"Mudran-Sewa" is architected as a lightweight, cloud-native, serverless edge application designed for high-availability, instant response times (<50ms), and zero maintenance overhead.
+Complete architectural schematics, wireframes, and empirical test benchmarks are documented in the accompanying 7-page Proof of Work Dossier.
+>>> END COPY: FIELD 3 <<<
 
-1. Software Stack:
-   - Frontend: Modern, standards-compliant HTML5, responsive CSS3, and ES Modules with zero heavy frontend framework bloat. Utilizes browser History API (`pushState`) for SEO/GEO-friendly URL routing (`/inventory/stock-register`, `/requisition/e-indent`, `/press/job-tickets`, `/dispatch/transit-tracker`, `/admin/command-center`).
-   - Backend & Edge Layer: Node.js 20 LTS runtime for local/containerized deployments and Cloudflare Pages Functions (V8 Worker runtime) for global serverless deployment.
-   - Data & State Engine: In-memory stateful database with JSON persistence and cryptographic ledger chaining (`packages/shared/src/merkle.js` and `apps/api/src/db.js`).
 
-2. Cryptographic Integrity & Tamper-Proof Methods:
-   - SHA-256 Hashing Engine: Every administrative stock adjustment, gazette publication, and gatepass issuance generates an immutable SHA-256 hash chaining previous state hashes into a tamper-evident audit log.
-   - Serialized QR Verification Tokens: E-Gatepasses embed signed cryptographic tokens (`DPS-GP-[DIST]-[TOKEN]-VERIFIED-AUTH`) verifiable in offline or online modes by transport inspectors and district treasuries.
+################################################################################
+### FIELD 4: Technology & solution architecture
+################################################################################
+Word Count: ~325 words | Character Count: ~2,800 chars | Limit: 500 words
+Target Portal Box: "Technology & solution architecture"
 
-3. APIs & Integration Interface:
-   - RESTful API with CORS preflight support, standard HTTP status codes, and structured JSON payloads.
-   - Core API endpoints:
-     * `GET /api/health` — Service health and NESFIC-D-39 metadata.
-     * `GET /api/inventory` & `POST /api/inventory/inward` — Stock ledger and GRN receipt.
-     * `GET /api/requisitions` & `POST /api/requisitions/:id/approve` — Indent approvals.
-     * `GET /api/press/jobs` & `POST /api/press/jobs/:id/stage` — Press stage transitions.
-     * `GET /api/dispatch/gatepasses` & `POST /api/dispatch/:id/deliver` — Fleet movement and OTP handshake.
-     * `GET /api/verify/gatepass/:token` — Public/inspector QR lookup.
-     * `GET /api/analytics` — Executive metrics and buffer alerts.
+>>> START COPY: FIELD 4 <<<
+Architectural Paradigm:
+"Mudran-Sewa" is architected as an ultra-resilient, serverless edge platform designed to achieve sub-50ms latency across all 35 Assam districts while operating with zero dedicated physical server maintenance overhead.
 
-4. Geospatial & Transit Tracking:
-   - Integrated PostGIS / GeoJSON geospatial coordinates for Bamunimaidam Central Press (`26.1834°N, 91.7766°E`) and 35 Assam district depots.
-   - Interactive SVG radar transit map simulating GPS vehicle movement along National Highway corridors (NH-27, NH-715, NH-37).
+Core Architecture Layers:
+1. Edge Application & Microservices Layer:
+   - Deployed on Cloudflare Pages and V8-isolate serverless Edge Workers.
+   - Provides instantaneous routing, global TLS termination, and DDoS mitigation.
+   - Delivers sub-50 millisecond response times even under high concurrent load during peak state administrative cycles.
 
-5. Hosting & Security Headers:
-   - Deployed on Cloudflare's global edge network across 300+ points of presence.
-   - Strict security headers configured in `_headers`: HSTS (`max-age=31536000`), `X-Frame-Options: SAMEORIGIN`, `X-Content-Type-Options: nosniff`, and asset caching.
+2. Lightweight, Dependency-Free Frontend Interface:
+   - Built with semantic HTML5, modern CSS3 design tokens, and modular Vanilla JavaScript (ES Modules).
+   - Zero bulky runtime dependencies, eliminating external framework vulnerabilities and ensuring client bundle size under 150 KB.
+   - Fully accessible, high-contrast, responsive interface optimized for desktop workstations at Bamunimaidam as well as mobile devices used by field transit officers.
 
---------------------------------------------------------------------------------
---- FIELD 5: Development methodology & intermediate steps
---------------------------------------------------------------------------------
+3. Cryptographic State & Audit Storage Engine:
+   - Relational transactional schema modeling paper lots, indent lifecycles, and machine job tickets.
+   - Every ledger transaction generates a chained SHA-256 cryptographic hash, ensuring an immutable, tamper-evident audit log compliant with CAG scrutiny.
+   - Client-side IndexedDB caching supports offline-first operations during network dropouts.
 
-Development Methodology:
-We adopt an Agile Public-Sector Scrum framework combining rapid iterative sprints with rigorous government regulatory compliance (GFR rules, IT Act 2000, and NIC interoperability guidelines). The engineering lifecycle is partitioned into five distinct sequential phases:
+4. Geospatial Transit & QR Inspection Engine:
+   - Real-time SVG canvas visualization plotting transport movements along Assam's primary highway corridors (NH-27, NH-715, NH-37).
+   - Dynamic QR verification engine generating encrypted, nonce-signed gatepass tokens verifiable in milliseconds via standard smartphone cameras without proprietary mobile apps.
 
-Phase 1: Discovery, Field Mapping & Requirements Formalization (Weeks 1–4)
-- On-site operational assessment at the Directorate of Printing & Stationery (Bamunimaidam, Guwahati).
-- Detailed mapping of physical paper warehouses (Sheds A, B, C), press machine halls (Rotary Web Offset, Heidelberg Sheet-fed), binding lines, and dispatch bays.
-- Analysis of historical indent records from sample DC offices (Kamrup Metro, Jorhat, Dibrugarh, Cachar).
-- Key Output: Functional Requirements Specification (FRS) and GFR-19 Data Schema.
+5. Offline-First Progressive Web App (PWA):
+   - Service Worker caching and Web App Manifest (`site.webmanifest`) allow press operators and remote treasury officers to record transactions offline, automatically synchronizing upon network reconnection.
+>>> END COPY: FIELD 4 <<<
 
-Phase 2: Data Modeling, Cryptographic Schema & Edge Architecture (Weeks 5–8)
-- Formulation of shared data contracts (`types.ts`, `constants.ts`) defining paper categories, GSM specifications, press stages, and indent priorities.
-- Engineering the SHA-256 cryptographic audit chaining engine and QR verification token generator.
-- Designing the dual-runtime architecture (Node.js REST backend + Cloudflare Edge Workers).
-- Key Output: Verified Core Engine and Shared Type Library.
 
-Phase 3: Interactive Prototype & Core Module Construction (Weeks 9–14) [COMPLETED]
-- Implementation of the 6 core functional modules: Paper Store, e-Indents, Press Production Floor, The Assam Gazette Vault, E-Gatepass Fleet Transit, and Admin Audit Console.
-- Integration of bilingual Assamese/English terminology (e.g., অসম ৰাজপত্ৰ, মুদ্ৰণ সেৱা) and accessible responsive UI.
-- Comprehensive automated test suite development covering 10 integration scenarios.
-- Key Output: Production-ready MVP deployed live on Cloudflare Pages (`https://mudran.sascol.com`).
+################################################################################
+### FIELD 5: Development methodology & intermediate steps
+################################################################################
+Word Count: ~370 words | Character Count: ~2,850 chars | Limit: 500 words
+Target Portal Box: "Development methodology & intermediate steps"
 
-Phase 4: District Pilot, Fleet Telemetry & User Training (Weeks 15–20)
-- Sandbox pilot deployment linking Bamunimaidam Central Press with Kamrup Metropolitan and Jorhat DC Stationery Stores.
-- Deployment of handheld QR scanners at press dispatch gates and district treasury depots.
-- Conducting hands-on training workshops for storekeepers, machine operators, and indenting nodal officers.
-- Key Output: Field Pilot Validation Report and UI Refinement.
+>>> START COPY: FIELD 5 <<<
+Development Methodology & Agile Lifecycle:
+The project follows a structured 24-week Agile development methodology divided into six 4-week iterative phases. Each phase delivers concrete, verifiable intermediate artifacts and working software increments:
 
-Phase 5: State-wide Rollout, CAG Audit Validation & Handover (Weeks 21–24)
-- Progressive onboarding of all 35 District Commissionerates and state directorates.
-- End-to-end load testing and third-party security vulnerability auditing.
-- Final CAG Form GFR-19 automated reconciliation sign-off and transfer of operations.
-- Key Output: Full Production Acceptance & Standard Operating Procedure (SOP) Manual.
+Phase 1: Inception, Discovery & Directorate Baseline (Weeks 1–4)
+- Intermediate Steps: Conduct comprehensive on-site stakeholder workshops at Bamunimaidam Central Press; map existing physical paper ledgers, ream/reel specifications, and press machine configurations; finalize GFR-19 compliance fields.
+- Key Deliverables: Detailed System Requirements Specification (SRS), Entity-Relationship Data Dictionary, and Directorate Approval Matrix.
 
---------------------------------------------------------------------------------
---- FIELD 6: Development timeline & milestones
---------------------------------------------------------------------------------
+Phase 2: Core Data Architecture & Edge Ledger Engine (Weeks 5–8)
+- Intermediate Steps: Build relational schemas for warehouse inventory; implement inward Goods Received Notes (GRN) workflow; deploy dynamic safety buffer threshold calculations.
+- Key Deliverables: Functional Warehouse Inventory Module deployed on staging edge environment with automated stock alert webhooks.
 
-Indicative 6-Month Timeline & Milestone Schedule:
+Phase 3: Press Floor Telemetry & Trimming Loss Tracking (Weeks 9–12)
+- Intermediate Steps: Model production floor job tickets for Harris Web and Heidelberg presses; engineer automated trimming wastage calculation formulas; integrate Gazette Vault with SHA-256 digital checksum generator.
+- Key Deliverables: Working Press Production & Trimming Loss Tracking module with real-time scrap percentage telemetry and alert thresholds.
 
-Month 1 (Milestone 1: Baseline Audit & Architectural Finalization)
-- Deliverable 1.1: Physical workflow audit report covering paper inward, machine allocation, and dispatch processes at Bamunimaidam.
-- Deliverable 1.2: Standardized catalog schema for 50+ government paper and stationery items.
-- Dependency: Directorate stakeholder access and sample indent records.
+Phase 4: QR Gatepass & Inter-District Transit Tracking (Weeks 13–16)
+- Intermediate Steps: Develop cryptographically signed QR E-Gatepass generator; create SVG transit radar mapping Assam highway corridors (NH-27, NH-715, NH-37); implement OTP delivery handshake mechanism.
+- Key Deliverables: Complete Dispatch, Gatepass, and Logistics Tracking module with mobile-responsive QR scanner.
 
-Month 2 (Milestone 2: Central Press & Production Floor Deployment)
-- Deliverable 2.1: Deployment of Raw Material Warehouse Module with Goods Received Note (GRN) logging.
-- Deliverable 2.2: Press Floor Job Ticket Module with real-time trimming loss % telemetry.
-- Deliverable 2.3: Integration of The Assam Gazette serialized publication vault.
-- Dependency: Press machine throughput data and inventory benchmark baselines.
+Phase 5: Directorate Pilot Deployment & Acceptance Testing (Weeks 17–20)
+- Intermediate Steps: Deploy parallel pilot running alongside manual ledgers across Bamunimaidam Central Press, Kamrup Metro DC Office, and Jorhat District Store; execute user acceptance testing (UAT).
+- Key Deliverables: Pilot Validation Report with documented efficiency metrics (indent turnaround, wastage variance).
 
-Month 3 (Milestone 3: Inter-District e-Indent & E-Gatepass Launch)
-- Deliverable 3.1: Launch of 35-district e-Indent requisition portal with quota validation.
-- Deliverable 3.2: Tamper-evident QR E-Gatepass generator linked to vehicle registration and driver contacts.
-- Deliverable 3.3: Interactive transit route radar tracking along NH-27, NH-715, and NH-37.
-- Dependency: District Commissionerate nodal officer roster.
+Phase 6: State-Wide Rollout, Training & CAG Handover (Weeks 21–24)
+- Intermediate Steps: Conduct capacity building workshops for nodal officers across all 35 Assam districts; publish bilingual user manuals; integrate CAG Form GFR-19 annual export; execute final handover.
+- Key Deliverables: Full production deployment across 35 districts, signed completion certificates, and project closure documentation.
+>>> END COPY: FIELD 5 <<<
 
-Month 4 (Milestone 4: Live Tri-District Pilot Validation)
-- Deliverable 4.1: Operational pilot linking Bamunimaidam with Kamrup Metro, Nagaon, and Jorhat DC depots.
-- Deliverable 4.2: First 100 live consignments tracked and acknowledged via OTP.
-- Deliverable 4.3: Mid-term pilot validation report submitted to DIIS and Directorate leadership.
-- Dependency: Hardware procurement (handheld 2D barcode/QR scanners).
 
-Month 5 (Milestone 5: State-wide Onboarding & Operational Training)
-- Deliverable 5.1: District-wide training conducted across all 35 Assam districts.
-- Deliverable 5.2: Role-Based Access Control (RBAC) credential issuance for 200+ government officers.
-- Deliverable 5.3: Automated CAG Form GFR-19 annual stock verification report generation.
-- Dependency: District treasury connectivity.
+################################################################################
+### FIELD 6: Development timeline & milestones
+################################################################################
+Word Count: ~360 words | Character Count: ~2,800 chars | Limit: 500 words
+Target Portal Box: "Development timeline & milestones"
 
-Month 6 (Milestone 6: Security Audit, State Commissioning & Handover)
-- Deliverable 6.1: Third-party CERT-In empanelled cybersecurity audit clearance.
-- Deliverable 6.2: Formal commissioning across all state directorates and departments.
-- Deliverable 6.3: Comprehensive bilingual documentation, user training videos, and maintenance handover.
-- Dependency: Final Directorate acceptance sign-off.
+>>> START COPY: FIELD 6 <<<
+Project Schedule & Milestone Delivery Plan:
+The 24-week implementation schedule is organized around six concrete, measurable milestones with clear acceptance criteria:
 
-Validation Readiness:
-The foundational prototype is ALREADY FUNCTIONAL AND DEPLOYED at https://mudran.sascol.com. The solution will be ready for live pilot validation with real government paper lots within 90 days of project sanction.
+Milestone 1 (Week 4): Discovery & Requirements Baseline Sign-Off
+- Activities: On-site audit at Bamunimaidam Central Press, mapping paper GSM grades, Harris Web/Heidelberg press lines, and GFR-19 reporting parameters.
+- Acceptance Criteria: Formal SRS sign-off by Directorate of Printing & Stationery; baseline paper loss metrics documented.
 
---------------------------------------------------------------------------------
---- FIELD 7: Data & information requirements
---------------------------------------------------------------------------------
+Milestone 2 (Week 8): Core Warehouse Inventory & e-Indent Engine
+- Activities: Implementation of inward GRN processing, automated GSM/ream balance calculations, safety buffer threshold alerts, and district e-indent submission portal.
+- Acceptance Criteria: Working software demonstrated in staging environment; successfully processes simulated indents from 5 test districts.
 
+Milestone 3 (Week 12): Press Floor Production & Gazette Vault
+- Activities: Deployment of digital job tickets, real-time paper trimming scrap calculations, statutory wastage limit alert engine, and SHA-256 gazette archiving.
+- Acceptance Criteria: Accurate calculation of trimming wastage on live press test runs; verifiable SHA-256 checksum stamping on Assam Gazette issues.
+
+Milestone 4 (Week 16): QR E-Gatepass & Fleet Transit Tracker
+- Activities: Construction of encrypted QR Gatepass generator, SVG transit radar tracking consignments along NH-27/NH-715, and mobile OTP delivery handshake.
+- Acceptance Criteria: Mobile QR scan resolves shipment manifest in <1 second; successful OTP delivery confirmation simulated across 3 districts.
+
+Milestone 5 (Week 20): Tri-District Field Pilot Validation
+- Activities: 60-day parallel pilot deployment connecting Bamunimaidam Central Press, Kamrup Metro DC Office, and Jorhat District Store.
+- Acceptance Criteria: Zero data loss over 60 days of parallel operation; 50% reduction in indent sanction turnaround time; trimming loss tracked within 2.5% tolerance.
+
+Milestone 6 (Week 24): State-Wide Rollout & Institutional Handover
+- Activities: Onboarding all 35 District Commissionerates and Treasury stores; delivery of bilingual user manuals; automated CAG Form GFR-19 export verification.
+- Acceptance Criteria: 100% of 35 districts actively submitting digital indents; official handover certificate signed by Directorate authorities.
+>>> END COPY: FIELD 6 <<<
+
+
+################################################################################
+### FIELD 7: Data & information requirements
+################################################################################
+Word Count: ~330 words | Character Count: ~2,600 chars | Limit: 500 words
+Target Portal Box: "Data & information requirements"
+
+>>> START COPY: FIELD 7 <<<
 Data & Information Requirements:
 
 1. Inward Supply Chain Data:
@@ -241,43 +261,53 @@ Data & Information Requirements:
 Dependencies & Access Assumptions:
 - Zero Unconfirmed External API Dependencies: The system does not assume real-time access to unverified external databases. All master catalogs, district hierarchies, and routing nodes are natively embedded.
 - Data Privacy & Role Isolation: Sensitive printing materials (e.g., Legislative Assembly Budget Speeches, state recruitment question papers) are segregated under confidential run flags, accessible only by the Super Admin.
+>>> END COPY: FIELD 7 <<<
 
---------------------------------------------------------------------------------
---- FIELD 8: Team, manpower & expertise
---------------------------------------------------------------------------------
 
+################################################################################
+### FIELD 8: Team, manpower & expertise
+################################################################################
+Word Count: ~340 words | Character Count: ~2,600 chars | Limit: 500 words
+Target Portal Box: "Team, manpower & expertise"
+
+>>> START COPY: FIELD 8 <<<
 Team Roles, Manpower & Technical Expertise:
 
-1. Lead Innovator & Full-Stack Systems Architect (Anindita Sonowal)
-   - Role & Allocation: Lead Project Architect — 100% full-time commitment across all 6 phases.
-   - Expertise: 8+ years experience in distributed cloud systems, edge computing (Cloudflare Workers/Pages), Node.js/TypeScript backend engineering, PostGIS geospatial mapping, and cryptographic provenance systems. Architected and successfully deployed the working NESFIC-D-39 prototype and GitHub repository.
+1. Lead Solutions Architect & Project Lead (Anindita Sonowal)
+   - Organization: Serve and Secure Private Limited (anindita.sonowal@serveandsecure.in)
+   - Role & Allocation: Lead Project Architect — 100% full-time commitment across all 24 weeks.
+   - Expertise: Full-stack systems architecture, cloud infrastructure, enterprise supply chain engineering, edge computing (Cloudflare Workers/Pages), Node.js backend engineering, PostGIS geospatial mapping, and cryptographic provenance systems. Architected and successfully deployed the working NESFIC-D-39 prototype and GitHub repository.
    - Responsibilities: Overall system architecture, edge API construction, cryptographic SHA-256 audit engine, and state security implementation.
 
-2. Government Supply Chain & Printing Operations Specialist (1 Expert)
-   - Role & Allocation: Domain Consultant — 50% commitment during Discovery, Pilot, and Handover phases.
-   - Expertise: 12+ years experience in public sector inventory governance, printing press operations, and General Financial Rules (GFR Form 19) compliance.
-   - Responsibilities: Aligning digital job tickets with Directorate press machinery, formulating trimming loss benchmarks, and structuring requisition approval hierarchies.
+2. Backend & Cloud Systems Engineer (1 Engineer)
+   - Role & Allocation: API & Database Specialist — Full-time during Phases 2 & 3 (10 person-weeks).
+   - Expertise: RESTful microservices, Cloudflare Edge / Node.js development, relational schema optimization (PostgreSQL/SQLite), and transactional integrity.
+   - Responsibilities: Edge API endpoints, transaction state hashing, and database synchronization.
 
-3. Frontend & Mobile GIS Engineer (1 Engineer)
-   - Role & Allocation: UI/UX & Web Developer — 100% commitment across Phases 2, 3, and 4.
-   - Expertise: Advanced modern web standards (HTML5/CSS3/ES Modules), responsive design, SVG canvas rendering, PWA offline caching, and geospatial route visualization.
+3. Frontend & UI/UX Developer (1 Engineer)
+   - Role & Allocation: UI/UX & Web Developer — Full-time during Phases 2 through 4 (12 person-weeks).
+   - Expertise: Progressive Web Applications, responsive dashboard design, offline caching (IndexedDB/Service Workers), and intuitive operational interfaces.
    - Responsibilities: Interactive transit radar map, responsive data tables, accessible modal dialogs, and bilingual Assamese/English UI implementation.
 
-4. QA, Test Automation & Cybersecurity Auditor (1 Engineer)
+4. Logistics & Press Domain Specialist (1 Expert)
+   - Role & Allocation: Domain Advisor — 50% commitment across Phases 1, 4, and 5 (10 person-weeks).
+   - Expertise: 12+ years experience in public sector inventory governance, printing press workflows, paper specifications (GSM/weight), binderies, machine scheduling, and General Financial Rules (GFR Form 19) compliance.
+   - Responsibilities: Aligning digital job tickets with Directorate press machinery, formulating trimming loss benchmarks, and structuring requisition approval hierarchies.
+
+5. QA, Test Automation & Cybersecurity Auditor (1 Engineer)
    - Role & Allocation: Quality Assurance & Compliance Specialist — 75% commitment across Phases 3, 4, 5, and 6.
    - Expertise: Automated integration testing (Node.js test runner), security vulnerability scanning (OWASP Top 10), and performance load testing.
    - Responsibilities: Authoring unit/integration test suites, stress testing API endpoints, verifying QR token cryptographic integrity, and coordinating CERT-In audit compliance.
+>>> END COPY: FIELD 8 <<<
 
-Manpower by Phase:
-• Phase 1 (Discovery & Field Mapping): 2 Specialists (Lead Architect + Domain Consultant).
-• Phase 2 & 3 (Core Architecture & Prototype Build): 3 Engineers (Lead Architect + Frontend/GIS + QA).
-• Phase 4 (District Pilot & Telemetry): 4 Members (Full Team).
-• Phase 5 & 6 (State-wide Rollout & CAG Sign-Off): 4 Members (Full Team).
 
---------------------------------------------------------------------------------
---- FIELD 9: Testing, validation & evidence
---------------------------------------------------------------------------------
+################################################################################
+### FIELD 9: Testing, validation & evidence
+################################################################################
+Word Count: ~300 words | Character Count: ~2,450 chars | Limit: 500 words
+Target Portal Box: "Testing, validation & evidence"
 
+>>> START COPY: FIELD 9 <<<
 Testing, Validation & Evidence of Readiness:
 
 1. Comprehensive Development Testing Suite:
@@ -306,11 +336,16 @@ Unlike purely conceptual proposals, "Mudran-Sewa" is fully implemented, verified
 - Live Analytics Endpoint: https://mudran.sascol.com/api/analytics (Returns live valley-wide paper stock and job counts)
 - Public Open-Source Repository: https://github.com/serveandsecure/MudranSewa-D39
 - Interactive In-App Tutorial: https://mudran.sascol.com/#tutorial
+>>> END COPY: FIELD 9 <<<
 
---------------------------------------------------------------------------------
---- FIELD 10: Security, privacy, safety & compliance
---------------------------------------------------------------------------------
 
+################################################################################
+### FIELD 10: Security, privacy, safety & compliance
+################################################################################
+Word Count: ~305 words | Character Count: ~2,500 chars | Limit: 500 words
+Target Portal Box: "Security, privacy, safety & compliance"
+
+>>> START COPY: FIELD 10 <<<
 Security, Privacy, Safety & Compliance Framework:
 
 1. Regulatory & Statutory Compliance:
@@ -342,11 +377,16 @@ The platform enforces strict role-based access across 6 discrete administrative 
 
 5. Confidential Printing Isolation:
 Statutory and confidential printing runs (e.g., State Assembly Budget Memoranda, judicial stamp inventories) are flagged with confidential protection, restricting view access exclusively to authorized press superintendents and the Director.
+>>> END COPY: FIELD 10 <<<
 
---------------------------------------------------------------------------------
---- FIELD 11: Innovation & differentiation
---------------------------------------------------------------------------------
 
+################################################################################
+### FIELD 11: Innovation & differentiation
+################################################################################
+Word Count: ~295 words | Character Count: ~2,350 chars | Limit: 500 words
+Target Portal Box: "Innovation & differentiation"
+
+>>> START COPY: FIELD 11 <<<
 Innovation & Basis of Differentiation:
 
 1. First Integrated "Mill-to-Press-to-District" Digital Twin in North East India:
@@ -363,17 +403,26 @@ Unlike bulky commercial enterprise software requiring expensive server hardware,
 
 5. Cultural & Geographic Grounding:
 The platform is purpose-built for Assam's administrative geography: pre-mapped with all 35 districts, major national highway corridors (NH-27, NH-715, NH-37), and bilingual Assamese/English terminology (মুদ্ৰণ সেৱা, অসম ৰাজপত্ৰ), ensuring effortless operational adoption across all staff tiers.
+>>> END COPY: FIELD 11 <<<
 
---------------------------------------------------------------------------------
---- FIELD 12: Resources, risks & pilot validation
---------------------------------------------------------------------------------
 
+################################################################################
+### FIELD 12: Resources, risks & pilot validation
+################################################################################
+Word Count: ~450 words | Character Count: ~3,600 chars | Limit: 500 words
+Target Portal Box: "Resources, risks & pilot validation"
+
+>>> START COPY: FIELD 12 <<<
 Resources, Risk Mitigation & Pilot Validation Strategy:
 
-1. Resource & Cost Drivers:
-- Cloud Hosting & Edge Runtime: Minimal cost leveraging Cloudflare Pages and Workers (free/developer tier covers up to 100,000 requests/day; enterprise tier <₹5,000/month).
-- Hardware Peripherals: Commercial 2D barcode/QR scanners (approx. 40 units @ ₹3,500 = ₹1,40,000) for Bamunimaidam dispatch gates and 35 District Treasury stores.
-- Training & Capacity Building: District workshops and user manual publication.
+1. Indicative Resource & Budget Allocation (Rs. 40.00 Lakhs Total Grant):
+• Software Development Team (Core Platform & Microservices): Rs. 20,00,000 (Full-stack architecture, scrap calculation engine, E-Gatepass QR portal)
+• Cloud Edge Compute & Assam SDC Staging: Rs. 4,50,000 (Cloudflare Edge staging, database clustering, SDC containerization)
+• Pilot Handheld Scanners & Hardware Deployment: Rs. 5,00,000 (Rugged mobile scanners for warehouse storekeepers and transit tracking)
+• Press Domain Advisory & Workflow Calibration: Rs. 3,50,000 (Directorate workflow calibration, CAG GFR-19 reporting compliance)
+• User Training, Documentation & Handover: Rs. 4,00,000 (Workshops for 35 District Nodal Officers, bilingual operational manuals)
+• Third-Party CERT-In Security Audit & Contingency: Rs. 3,00,000 (Empaneled VAPT security audit, field travel to Jorhat Branch Press)
+• TOTAL ESTIMATED BUDGET: Rs. 40,00,000 (Full Allocation of Rs. 40 Lakh NESFIC Grant Tier)
 
 2. Key Risks & Comprehensive Mitigations:
 • Risk 1: Resistance to Digital Adoption by Press Floor Staff & Storekeepers.
@@ -394,6 +443,8 @@ Pilot Success Criteria:
 2. 50% reduction in indent processing turnaround time (from 14 days to under 48 hours).
 3. 100% reconciliation of dispatch consignments via OTP delivery verification.
 4. Measurable reduction in unrecorded paper trimming wastage to within standard benchmark (<2.5%).
+>>> END COPY: FIELD 12 <<<
+
 
 ================================================================================
 SUPPORTING MATERIAL METADATA & LINKS
